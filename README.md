@@ -8,15 +8,34 @@ TBC
 
 ## Data Schema
 
-TBC
-
 ### Country-level
 
-TBC
+Filename: `pay-transparency-country.csv`
+
+Data dictionary:
+
+| variable                      | definition                                                                             |
+|-------------------------------|----------------------------------------------------------------------------------------|
+| date                          | Month when the job was posted                                                          |
+| country_code                  | Two-character [ISO 3166-1 alpha-2 country code](https://www.iban.com/country-codes)    |
+| country                       | Country name                                                                           |
+| pay_transparency_pct          | Share (%) of job postings with explicit pay information                                |
+| posted_wage_growth_yoy_3moavg | 3-month lagged moving average of `pay_transparency_pct`                                |
 
 ### Sector-level
 
-TBC
+Filename: `pay-transparency-sector.csv`
+
+Data dictionary:
+
+| variable                      | definition                                                                             |
+|-------------------------------|----------------------------------------------------------------------------------------|
+| date                          | Month when the job was posted                                                          |
+| country_code                  | Two-character [ISO 3166-1 alpha-2 country code](https://www.iban.com/country-codes)    |
+| country                       | Country name                                                                           |
+| sector                        | Occupational sector name                                                               |
+| pay_transparency_pct          | Share (%) of job postings with explicit pay information                                |
+| posted_wage_growth_yoy_3moavg | 3-month lagged moving average of `pay_transparency_pct`                                |
 
 ## License
 
