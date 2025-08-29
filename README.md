@@ -20,7 +20,7 @@ Data dictionary:
 | country_code                  | Two-character [ISO 3166-1 alpha-2 country code](https://www.iban.com/country-codes)    |
 | country                       | Country name                                                                           |
 | pay_transparency_pct          | Share (%) of job postings with explicit pay information                                |
-| posted_wage_growth_yoy_3moavg | 3-month lagged moving average of `pay_transparency_pct`                                |
+| pay_transparency_pct_3ma      | 3-month lagged moving average of `pay_transparency_pct`                                |
 
 ### Sector-level
 
@@ -35,7 +35,7 @@ Data dictionary:
 | country                       | Country name                                                                           |
 | sector                        | Occupational sector name                                                               |
 | pay_transparency_pct          | Share (%) of job postings with explicit pay information                                |
-| posted_wage_growth_yoy_3moavg | 3-month lagged moving average of `pay_transparency_pct`                                |
+| pay_transparency_pct_3ma      | 3-month lagged moving average of `pay_transparency_pct`                                |
 
 ## License
 
