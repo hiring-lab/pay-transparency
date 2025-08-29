@@ -1,10 +1,12 @@
 # Indeed Pay Transparency Tracker
 
-This repository contains the data behind the *Indeed Hiring Lab's* Pay Transparency Tracker.
+Data behind the *Indeed Hiring Lab's* Pay Transparency Tracker provided in flat-file format.
 
 ## Methodology
 
-TBC
+The data in this repository are the share of job postings on Indeed where explicit wage or salary information is provided, as a percentage of overall job postings, calculated on a monthly frequency.
+
+Changes to the data can be followed under the "What's New" section of the Hiring Lab Data Portal: [data.indeed.com/whats-new](https://data.indeed.com/#/whats-new). For Frequently Asked Questions regarding Indeed's data, click [here](https://www.hiringlab.org/indeed-data-faq/).
 
 ## Data Schema
 
